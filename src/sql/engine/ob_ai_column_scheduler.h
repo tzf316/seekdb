@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-#ifndef OCEANBASE_SQL_ENGINE_OB_AI_COLUMN_SCHEDULER_H_
-#define OCEANBASE_SQL_ENGINE_OB_AI_COLUMN_SCHEDULER_H_
+#pragma once
 
 #include "lib/container/ob_se_array.h"
 #include "share/schema/ob_table_schema.h"
@@ -107,5 +106,3 @@ extern ObAiColumnScheduler* g_ai_column_scheduler;
 
 } // namespace sql
 } // namespace oceanbase
-
-#endif // OCEANBASE_SQL_ENGINE_OB_AI_COLUMN_SCHEDULER_H_

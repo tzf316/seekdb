@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-#ifndef OCEANBASE_SQL_RESOLVER_DDL_OB_AI_COLUMN_RESOLVER_H_
-#define OCEANBASE_SQL_RESOLVER_DDL_OB_AI_COLUMN_RESOLVER_H_
+#pragma once
 
 #include "sql/resolver/ddl/ob_ddl_resolver.h"
 #include "share/schema/ob_table_schema.h"
@@ -58,5 +57,3 @@ private:
 
 } // namespace sql
 } // namespace oceanbase
-
-#endif // OCEANBASE_SQL_RESOLVER_DDL_OB_AI_COLUMN_RESOLVER_H_

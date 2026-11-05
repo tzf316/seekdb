@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-#ifndef OCEANBASE_SQL_OB_EXPR_READ_CSV_H_
-#define OCEANBASE_SQL_OB_EXPR_READ_CSV_H_
+#pragma once
 
 #include "sql/engine/expr/ob_expr_operator.h"
 #include "sql/engine/ob_exec_context.h"
@@ -44,5 +43,3 @@ private:
 
 } // namespace sql
 } // namespace oceanbase
-
-#endif // OCEANBASE_SQL_OB_EXPR_READ_CSV_H_

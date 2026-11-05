@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-#ifndef OCEANBASE_SQL_ENGINE_OB_FILE_TABLE_ITERATOR_H_
-#define OCEANBASE_SQL_ENGINE_OB_FILE_TABLE_ITERATOR_H_
+#pragma once
 
 #include "common/row/ob_row_iterator.h"
 #include "sql/engine/expr/ob_expr_file_sql/ob_csv_parser.h"
@@ -83,5 +82,3 @@ private:
 
 } // namespace sql
 } // namespace oceanbase
-
-#endif // OCEANBASE_SQL_ENGINE_OB_FILE_TABLE_ITERATOR_H_

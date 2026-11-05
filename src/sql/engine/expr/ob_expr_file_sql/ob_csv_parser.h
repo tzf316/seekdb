@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-#ifndef OCEANBASE_SQL_OB_CSV_PARSER_H_
-#define OCEANBASE_SQL_OB_CSV_PARSER_H_
+#pragma once
 
 #include "lib/string/ob_string.h"
 #include "lib/container/ob_se_array.h"
@@ -75,5 +74,3 @@ private:
 
 } // namespace sql
 } // namespace oceanbase
-
-#endif // OCEANBASE_SQL_OB_CSV_PARSER_H_

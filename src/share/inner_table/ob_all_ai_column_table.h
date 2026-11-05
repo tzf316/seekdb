@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-#ifndef OCEANBASE_SHARE_INNER_TABLE_OB_ALL_AI_COLUMN_TABLE_H_
-#define OCEANBASE_SHARE_INNER_TABLE_OB_ALL_AI_COLUMN_TABLE_H_
+#pragma once
 
 #include "share/schema/ob_table_schema.h"
 
@@ -55,5 +54,3 @@ private:
 
 } // namespace share
 } // namespace oceanbase
-
-#endif // OCEANBASE_SHARE_INNER_TABLE_OB_ALL_AI_COLUMN_TABLE_H_

@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-#ifndef OCEANBASE_SQL_ENGINE_OB_AI_COLUMN_TRIGGER_H_
-#define OCEANBASE_SQL_ENGINE_OB_AI_COLUMN_TRIGGER_H_
+#pragma once
 
 #include "sql/engine/ob_ai_column_scheduler.h"
 #include "sql/engine/ob_exec_context.h"
@@ -58,5 +57,3 @@ private:
 
 } // namespace sql
 } // namespace oceanbase
-
-#endif // OCEANBASE_SQL_ENGINE_OB_AI_COLUMN_TRIGGER_H_

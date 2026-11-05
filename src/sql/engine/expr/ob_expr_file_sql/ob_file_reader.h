@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-#ifndef OCEANBASE_SQL_OB_FILE_READER_H_
-#define OCEANBASE_SQL_OB_FILE_READER_H_
+#pragma once
 
 #include "lib/string/ob_string.h"
 #include "lib/alloc/ob_iallocator.h"
@@ -48,5 +47,3 @@ private:
 
 } // namespace sql
 } // namespace oceanbase
-
-#endif // OCEANBASE_SQL_OB_FILE_READER_H_

@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-#ifndef OCEANBASE_SQL_ENGINE_IDX_OB_FT_INDEX_OPTIMIZER_H_
-#define OCEANBASE_SQL_ENGINE_IDX_OB_FT_INDEX_OPTIMIZER_H_
+#pragma once
 
 #include "lib/container/ob_se_array.h"
 
@@ -116,5 +115,3 @@ extern ObFTIndexOptimizer* g_ft_index_optimizer;
 
 } // namespace sql
 } // namespace oceanbase
-
-#endif // OCEANBASE_SQL_ENGINE_IDX_OB_FT_INDEX_OPTIMIZER_H_
